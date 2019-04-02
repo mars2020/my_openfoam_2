@@ -23,8 +23,16 @@ startTime       0;
 
 stopAt          endTime;
 
+//Mesh A
+//endTime         25.0;
+
+// Mesh A
+//deltaT          0.01;
+
+//Mesh B
 endTime         25.0;
 
+// Mesh B
 deltaT          0.01;
 
 writeControl    timeStep; 
