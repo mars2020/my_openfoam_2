@@ -29,7 +29,7 @@ sets
         type    lineCell;
         axis    xyz;
         start   (1 0 0);
-        end     (3 0 0);
+        end     (7 0 0);
     }
 );
 
