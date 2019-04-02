@@ -23,21 +23,13 @@ startTime       0;
 
 stopAt          endTime;
 
-//Mesh A
-//endTime         25.0;
-
-// Mesh A
-//deltaT          0.01;
-
-//Mesh B
 endTime         120.0;
 
-// Mesh B
-deltaT          0.1;
+deltaT          0.01;
 
-writeControl    timeStep; 
+writeControl    runTime; 
 
-writeInterval   20.0;
+writeInterval   1.0;
 
 purgeWrite      0;
 

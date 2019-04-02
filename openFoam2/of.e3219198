@@ -1,0 +1,20 @@
+
+Currently Loaded Modules:
+  1) intel/18.0.2   2) libfabric/1.7.0   3) impi/18.0.2   4) openfoam/6.0
+
+ 
+
+
+
+--> FOAM FATAL ERROR: 
+Case is already decomposed with 2 domains, use the -force option or manually
+remove processor directories before decomposing. e.g.,
+    rm -rf /work/05129/mars2020/stampede2/cfd/my_openfoam_2/openFoam2/processor*
+
+
+    From function int main(int, char **)
+    in file decomposePar.C at line 365.
+
+FOAM exiting
+
+slurmstepd: error: *** JOB 3219198 ON c401-094 CANCELLED AT 2019-04-01T22:08:52 DUE TO TIME LIMIT ***
