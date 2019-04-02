@@ -30,14 +30,14 @@ stopAt          endTime;
 //deltaT          0.01;
 
 //Mesh B
-endTime         25.0;
+endTime         120.0;
 
 // Mesh B
 deltaT          0.01;
 
 writeControl    timeStep; 
 
-writeInterval   100.0;
+writeInterval   200.0;
 
 purgeWrite      0;
 

@@ -30,8 +30,8 @@
 #SBATCH -N 1               # Total # of nodes
 #SBATCH -n 2               # Total # of mpi tasks
 #SBATCH -t 00:10:00        # Run time (hh:mm:ss)
-###  #SBATCH --mail-user=youremail@utexas.edu
-###  #SBATCH --mail-type=all    # Send email at begin and end of job
+#SBATCH --mail-user=mars2020@utexas.edu
+###	#SBATCH --mail-type=all    # Send email at begin and end of job
 #SBATCH -A COE-347-SP2019       # Allocation name (req'd if you have more than 1)
 
 # Other commands must follow all #SBATCH directives...
